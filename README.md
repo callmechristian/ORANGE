@@ -1,5 +1,6 @@
 # ORANGE
  ORANGE theme for spicetify, minimalist with a background image with oranges. Less random colors.
+ ![Preview image](/images/default.png)
 
 ## Installation
 1. Install [spicetify](https://github.com/khanhas/spicetify-cli).
