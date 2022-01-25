@@ -123,10 +123,7 @@ div.GlueDropTarget.personal-library >*.active {
     background-color: var(--spice-button-active);
 }
 
-.main-contextMenu-menuHeading,
-.main-contextMenu-menuItemButton,
-.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
-.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+.main-contextMenu-menuHeading {
     color: var(--spice-text);
 }
 
@@ -236,4 +233,15 @@ section[aria-label="Episodes for you"] {
 #searchPage div div div section div:nth-child(2) a {
 	background-color: hsla(0,0%,0%,0.4)!important;
 	backdrop-filter: blur(8px);
+}
+
+/* context menu text color */
+.main-contextMenu-menuItemButton,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+  color: black;
+}
+
+.main-contextMenu-disabled {
+  color: darkgray!important;
 }
