@@ -217,7 +217,7 @@ section[aria-label="Shows to try"] {
 
 /*main background*/
 .Root__main-view {
-
+    z-index: default;
 }
 .Root__main-view::before {
 	content: "";
@@ -227,9 +227,6 @@ section[aria-label="Shows to try"] {
 	background: url("https://images.pexels.com/photos/9242994/pexels-photo-9242994.jpeg") no-repeat;
 	background-size: cover;
 	filter: brightness(0.4);
-}
-.main-view-container {
-
 }
 
 /* search page cards backgrounds */
