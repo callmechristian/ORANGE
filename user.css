@@ -195,6 +195,13 @@ section[aria-label="Episodes for you"] {
 	opacity: 0!important;
 }
 
+/* remove shows to try */
+section[aria-label="Shows to try"] {
+	display: none!important;
+	height: 0!important;
+	opacity: 0!important;
+}
+
 /* card backgrounds */
 .main-card-card {
 	background: hsla(0,0%,0%,0.5)!important;
