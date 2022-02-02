@@ -210,9 +210,20 @@ section[aria-label="Shows to try"] {
 
 /* card background top row */
 .main-home-content section:first-child div:nth-child(2) div {
+    background-color: hsla(0,0%,0%,0.2);
+    border: 0px solid black;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.main-home-content section:first-child div:nth-child(2) div div{
 	background-color: hsla(0,0%,0%,0.2);
 	border: 0px solid black;
-	border-radius: 8px 8px 8px 8px;
+	border-radius: 0px 8px 8px 0px;
+}
+
+.main-home-content section:first-child div:nth-child(2) div div div:nth-child(2) {
+    backdrop-filter: blur(8px);
+    border-radius: 0px 8px 8px 0px;
 }
 
 /*main background*/
